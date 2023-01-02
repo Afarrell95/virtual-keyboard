@@ -9,10 +9,8 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
+    background: #FFC6D3
 }
-
-/* SUBSCRIBE ==> https://www.youtube.com/albdev */
-/* SUBSCRIBE ==> https://www.youtube.com/albdev */
 
 .keyboard {
     display: flex;
@@ -20,26 +18,26 @@ body {
     align-items: center;
 }
 button {
-    background-color: rgb(104, 104, 255);
+    background-color: #E98EAD;
     border: none;
     display: inline-block;
     padding: .5rem 1rem;
     margin: .3rem;
     font-size: 1.3rem;
-    color: #fff;
+    color: #FFC6D3;
     width: 50px;
     height: 50px;
-    border-radius: .5rem;
+    border-radius: 13px;
 }
 .delete,
-.shift,
+.caps,
 .space {
     font-size: 1rem;
     text-transform: capitalize;
 }
 .delete { width: 100px; }
-.shift { width: 70px; }
-.space { width: 350px; }
+.caps { width: 100px; }
+.space { width: 400px; }
 
 .textarea {
     width: 100%;
@@ -54,7 +52,7 @@ textarea {
     padding: .5rem;
     font-size: 1.2rem;
     outline: none;
-    border: 2px solid rgb(104, 104, 255);
+    border: 2px solid #E98EAD;
     border-radius: .5rem;
 }
 

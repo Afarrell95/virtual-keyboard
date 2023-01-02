@@ -4,6 +4,7 @@ const textarea = document.querySelector("textarea");
 const delete_btn = document.querySelector(".delete");
 const shift_btn = document.querySelector(".shift");
 const space_btn = document.querySelector(".space");
+const dark_btn = document.querySelector(".dark-mode");
 
 let chars = [];
 
@@ -29,3 +30,6 @@ shift_btn.addEventListener("click", () => {
     btn.classList.toggle("upper");
   });
 });
+
+//to add:
+//darkmode toggle

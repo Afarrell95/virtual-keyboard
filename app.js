@@ -1,10 +1,11 @@
 const buttons = document.querySelectorAll(".btn");
 const textarea = document.querySelector("textarea");
-
+const darkMode= document.querySelector('.dark-mode')
 const delete_btn = document.querySelector(".delete");
-const shift_btn = document.querySelector(".shift");
+const caps_btn = document.querySelector(".caps");
 const space_btn = document.querySelector(".space");
 const dark_btn = document.querySelector(".dark-mode");
+const body = document.querySelector('body');
 
 let chars = [];
 
@@ -25,11 +26,13 @@ space_btn.addEventListener("click", () => {
   textarea.value = chars.join("");
 });
 
-shift_btn.addEventListener("click", () => {
+caps_btn.addEventListener("click", () => {
   buttons.forEach((btn) => {
     btn.classList.toggle("upper");
   });
 });
 
-//to add:
-//darkmode toggle
+
+darkMode.addEventListener('click', ()=> {
+ body.classList.toggle('dark')
+})

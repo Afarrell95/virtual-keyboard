@@ -40,6 +40,18 @@ body {
 .caps { width: 100px; }
 .space { width: 400px; }
 
+.dark-mode {
+    background-color: #E98EAD;
+    border: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 13px;
+    color: #FFC6D3;
+}
+
 .textarea {
     width: 100%;
     display: flex;
@@ -57,4 +69,8 @@ textarea {
 
 
 .upper { text-transform: uppercase; }
+
+.dark {
+    background-color: #442b34 !important;
+}
 
